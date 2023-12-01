@@ -1,7 +1,6 @@
 
 ZSH_THEME="robbyrussell"
 DOT_FILES_DIR="$(dirname "$(readlink -f ~/.zshrc)")"
-#echo "Dot files dir: $DOT_FILES_DIR"
 [[ -f $DOT_FILES_DIR/.zsh/environment-variables.zsh ]] && source $DOT_FILES_DIR/.zsh/environment-variables.zsh && echo "Environment Variables Loaded"
 [[ -f $SECRET_ENV_FILE ]] && source $SECRET_ENV_FILE && echo "Secrets env file loaded"
 [[ -f $DOT_FILES_DIR/.zsh/aliases.zsh ]] && source $DOT_FILES_DIR/.zsh/aliases.zsh && echo "Aliases loaded"
