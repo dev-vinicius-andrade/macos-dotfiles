@@ -8,6 +8,10 @@ download_and_install_fonts()
     "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Ubuntu.zip"
     "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/UbuntuMono.zip"
     "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Agave.zip"
+    "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip"
+    "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraMono.zip"
+    "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip"
+    "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/NerdFontsSymbolsOnly.zip"
     )
     for fonts_zip_uri in "${fonts_zips_uris[@]}"
     do

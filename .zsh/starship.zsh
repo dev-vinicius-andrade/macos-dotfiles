@@ -1,5 +1,5 @@
 #! /bin/zsh
-run(){
+function run() {
     LFILE="/etc/*-release"
     MFILE="/System/Library/CoreServices/SystemVersion.plist"
     if [[ -f $LFILE ]]; then
@@ -45,8 +45,8 @@ run(){
         *)                       ICON="";;
 esac
 
-export STARSHIP_DISTRO="$ICON"
+export STARSHIP_DISTRO=$ICON;
 export STARSHIP_DEVICE="$DEVICE"
-export STARSHIP_CONFIG= ~/macos-dotfiles/starship/starship.toml
+export STARSHIP_CONFIG="$DOT_FILES_DIR/starship/starship.toml"
 }
 run

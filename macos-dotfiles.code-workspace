@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.fontFamily": "JetBrainsMono Nerd Font, Hack Nerd Font"
+  },
+  "extensions": {
+    "recommendations": ["tamasfe.even-better-toml"]
+  }
+}

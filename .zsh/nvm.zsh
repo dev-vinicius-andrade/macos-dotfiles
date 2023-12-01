@@ -7,5 +7,4 @@ run(){
     alias npm='unalias nvm node npm && . "$NVM_DIR"/nvm.sh && npm'
     fi
 }
-
 run

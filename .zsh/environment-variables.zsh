@@ -1,0 +1,13 @@
+#! /bin/zsh
+export SECRETS_DIR="$DOT_FILES_DIR/.secrets"
+export SECRET_ENV_FILE="$SECRETS_DIR/.env.secret.zsh"
+export GCP_DIR="$HOME/.gcp"
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/libxml2/lib"
+export CPPFLAGS="-I/usr/local/opt/libxml2/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl@3/lib/pkgconfig"
+#export HIPERSTREAM_AZURE_DEVOPS_PAT="g6u6zqelsm7divkilwahuvdzkbcabcsisdrvo6ndvw3wnyrmncgq"
+#export GOOGLE_APPLICATION_CREDENTIALS="$HOME/.gcp/hiperstream/hcp-nonproduction-bbcebe0925f5.json"
+export repos="$HOME/Development/repos/"
+export PATH="$PATH:$HOME/.dotnet/tools"
+export APPDATA="$HOME"
